@@ -25,6 +25,10 @@ matters more than the UI. If you run out of time, write down what you would do n
 
 There is no real Lakeside API. Read the files from disk.
 
+The snapshots are dated for one week. If you take this exercise later, run
+`python3 scripts/set_dates.py` (Python 3.9 or later) to move day 1 to today. Day 2 and day 3
+follow on the next nights. You can also pass a date: `python3 scripts/set_dates.py 2027-03-15`.
+
 ## Language and stack
 
 We prefer **Elixir** for the backend, **React** for the UI and **PostgreSQL** for storage,
