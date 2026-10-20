@@ -19,9 +19,9 @@ matters more than the UI. If you run out of time, write down what you would do n
 
 ## What you get
 
-- `data/day1.json`: a full Lakeside snapshot of one property, taken on the first night.
-- `data/day2.json`: a full snapshot of the same property, taken the next night.
-- `data/day3.json`: the third night's snapshot.
+- `candidate/data/day1.json`: a full Lakeside snapshot of one property, taken on the first night.
+- `candidate/data/day2.json`: a full snapshot of the same property, taken the next night.
+- `candidate/data/day3.json`: the third night's snapshot.
 
 There is no real Lakeside API. Read the files from disk.
 
@@ -175,7 +175,7 @@ It needs these views:
 
 - **Sync runs.** One row per run: snapshot file, `generated_at`, when it ran, and counts of units
   and residents upserted, move-ins, move-outs and records skipped or flagged. A way to start a
-  run from the UI, for example a button for each snapshot in `data/`.
+  run from the UI, for example a button for each snapshot in `candidate/data/`.
 - **Units.** Every unit with its number, building, floorplan and RentLive unit status. Show the
   raw Lakeside code next to the mapped status.
 - **Unit detail.** The unit's leases with their status and dates, the people on each lease with
