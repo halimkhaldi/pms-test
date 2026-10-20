@@ -1,0 +1,991 @@
+{
+  "meta": {
+    "pms": "Lakeside",
+    "api_version": "2.3",
+    "generated_at": "2026-10-30T06:30:00Z",
+    "snapshot_type": "full"
+  },
+  "property": {
+    "id": 100,
+    "name": "Harbor View Apartments",
+    "timezone": "America/Los_Angeles"
+  },
+  "units": [
+    {
+      "id": 5001,
+      "unitNumber": "101",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5002,
+      "unitNumber": "102",
+      "buildingName": "A",
+      "floorplanName": "2x2",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5003,
+      "unitNumber": "103",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5004,
+      "unitNumber": "104",
+      "buildingName": "A",
+      "floorplanName": "Studio",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5005,
+      "unitNumber": "105",
+      "buildingName": "A",
+      "floorplanName": "2x2",
+      "unitStatus": "O2"
+    },
+    {
+      "id": 5006,
+      "unitNumber": "106",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "V2"
+    },
+    {
+      "id": 5007,
+      "unitNumber": "201",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5008,
+      "unitNumber": "202",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "V2"
+    },
+    {
+      "id": 5009,
+      "unitNumber": "203",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "O3"
+    },
+    {
+      "id": 5010,
+      "unitNumber": "204",
+      "buildingName": "",
+      "floorplanName": "Studio",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5011,
+      "unitNumber": "205",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5012,
+      "unitNumber": "206",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5013,
+      "unitNumber": "301",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "M"
+    },
+    {
+      "id": 5014,
+      "unitNumber": "CLUB",
+      "buildingName": "",
+      "floorplanName": "",
+      "unitStatus": "C"
+    },
+    {
+      "id": 5015,
+      "unitNumber": "302",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "D"
+    },
+    {
+      "id": 5016,
+      "unitNumber": "303",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "X"
+    }
+  ],
+  "leases": [
+    {
+      "id": 9001,
+      "unitId": "5001",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70011,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70011,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/18/2026",
+            "endDate": "10/17/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3001,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Alice",
+            "lastName": "Nguyen",
+            "moveInDate": "10/18/2026",
+            "moveOutDate": "10/27/2026",
+            "addresses": {
+              "address": {
+                "email": "alice.nguyen@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3001"
+            }
+          },
+          {
+            "id": 3003,
+            "customerType": "Guarantor",
+            "leaseCustomerStatus": null,
+            "firstName": "Gary",
+            "lastName": "Nguyen",
+            "moveInDate": "10/18/2026",
+            "moveOutDate": "10/27/2026",
+            "addresses": {
+              "address": {
+                "email": "gary.nguyen@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3003"
+            }
+          },
+          {
+            "id": 3002,
+            "customerType": "Co-Applicant",
+            "leaseCustomerStatus": null,
+            "firstName": "Bob",
+            "lastName": "Lee",
+            "moveInDate": "10/18/2026",
+            "moveOutDate": "10/27/2026",
+            "addresses": {
+              "address": {
+                "email": "bob.lee@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3002"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9002,
+      "unitId": "5002",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70021,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70021,
+            "leaseIntervalType": "Lease",
+            "startDate": "09/02/2026",
+            "endDate": "09/01/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3004,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Carol",
+            "lastName": "Mendez",
+            "moveInDate": "09/02/2026",
+            "moveOutDate": "",
+            "addresses": {
+              "address": {
+                "email": "carol.mendez@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3004"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9016,
+      "unitId": "5012",
+      "leaseIntervalStatus": "Cancelled",
+      "leaseIntervalId": 70161,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70161,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/27/2026",
+            "endDate": "10/26/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3005,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Owen",
+            "lastName": "Park",
+            "moveInDate": "10/23/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "owen.park@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3005"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9005,
+      "unitId": "5005",
+      "leaseIntervalStatus": "Notice",
+      "leaseIntervalId": 70051,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70051,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/23/2026",
+            "endDate": "12/26/2026"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3008,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Frank",
+            "lastName": "Osei",
+            "moveInDate": "10/23/2026",
+            "moveOutDate": "12/26/2026",
+            "addresses": {
+              "address": {
+                "email": "frank.osei@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3008"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9009,
+      "unitId": "5009",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70091,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70091,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/22/2026",
+            "endDate": "10/21/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3013,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Jack",
+            "lastName": "Rossi",
+            "moveInDate": "10/22/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "jack.rossi@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3013"
+            }
+          },
+          {
+            "id": 3014,
+            "customerType": "Co-Applicant",
+            "leaseCustomerStatus": "Past",
+            "firstName": "Kim",
+            "lastName": "Sato",
+            "moveInDate": "10/22/2026",
+            "moveOutDate": "10/24/2026",
+            "addresses": {
+              "address": {
+                "email": "kim.sato@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3014"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9015,
+      "unitId": "5099",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70151,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70151,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/23/2026",
+            "endDate": "10/22/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3017,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Paul",
+            "lastName": "Quint",
+            "moveInDate": "10/23/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "paul.quint@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3017"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9017,
+      "unitId": null,
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70171,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70171,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/23/2026",
+            "endDate": "10/22/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3018,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Quinn",
+            "lastName": "Reyes",
+            "moveInDate": "10/23/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "quinn.reyes@example.com"
+              }
+            },
+            "phone": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 9020,
+      "unitId": "5003",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70201,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70201,
+            "leaseIntervalType": "Lease",
+            "startDate": "08/02/2025",
+            "endDate": "08/01/2026"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3022,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Rita",
+            "lastName": "Gomez",
+            "moveInDate": "08/02/2025",
+            "moveOutDate": "08/02/2026",
+            "addresses": {
+              "address": {
+                "email": "rita.gomez@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3022"
+            }
+          },
+          {
+            "id": 3023,
+            "customerType": "Co-Applicant",
+            "leaseCustomerStatus": null,
+            "firstName": "Victor",
+            "lastName": "Gomez",
+            "moveInDate": "08/02/2025",
+            "moveOutDate": "08/02/2026",
+            "addresses": {
+              "address": {
+                "email": "victor.gomez@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3023"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9021,
+      "unitId": "5004",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70211,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70211,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/14/2025",
+            "endDate": "10/13/2026"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3024,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Wendy",
+            "lastName": "Shah",
+            "moveInDate": "10/14/2025",
+            "moveOutDate": "10/13/2026",
+            "addresses": {
+              "address": {
+                "email": "wendy.shah@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9003,
+      "unitId": "5003",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70031,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70031,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/29/2026",
+            "endDate": "10/28/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3006,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Dan",
+            "lastName": "Ito",
+            "moveInDate": "10/29/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "dan.ito@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3006"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9004,
+      "unitId": "5004",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70041,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70041,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/29/2026",
+            "endDate": "10/28/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3007,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Erin",
+            "lastName": "Walsh",
+            "moveInDate": "10/29/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "erin.walsh@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3007"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9006,
+      "unitId": "5006",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70061,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70061,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/16/2026",
+            "endDate": "10/29/2026"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3009,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Grace",
+            "lastName": "Hall",
+            "moveInDate": "10/16/2026",
+            "moveOutDate": "10/29/2026",
+            "addresses": {
+              "address": {
+                "email": "grace.hall@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3009"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9007,
+      "unitId": "5007",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 70071,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70071,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/14/2026",
+            "endDate": "10/13/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3010,
+            "customerType": "Primary",
+            "leaseCustomerStatus": "Past",
+            "firstName": "Henry",
+            "lastName": "Diaz",
+            "moveInDate": "10/25/2026",
+            "moveOutDate": "10/27/2026",
+            "addresses": {
+              "address": {
+                "email": "henry.diaz@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3010"
+            }
+          },
+          {
+            "id": 3011,
+            "customerType": "co-applicant",
+            "leaseCustomerStatus": null,
+            "firstName": "Sam",
+            "lastName": "Diaz",
+            "moveInDate": "10/14/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "sam.diaz@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3011"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9008,
+      "unitId": "5008",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70081,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70081,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/20/2026",
+            "endDate": "10/26/2026"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3012,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Ivy",
+            "lastName": "Chen",
+            "moveInDate": "10/20/2026",
+            "moveOutDate": "10/26/2026",
+            "addresses": {
+              "address": {
+                "email": "ivy.chen@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3012"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9119,
+      "unitId": "5011",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 71191,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 71191,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/29/2026",
+            "endDate": "10/28/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3021,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Nora",
+            "lastName": "Fitz",
+            "moveInDate": "10/29/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "nora.fitz@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3021"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9011,
+      "unitId": "5011",
+      "leaseIntervalStatus": "Past",
+      "leaseIntervalId": 70111,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 70111,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/17/2026",
+            "endDate": "10/16/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3016,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Mia",
+            "lastName": "Kowalski",
+            "moveInDate": "10/17/2026",
+            "moveOutDate": "10/28/2026",
+            "addresses": {
+              "address": {
+                "email": "mia.kowalski@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3016"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9101,
+      "unitId": "5001",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 71010,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 71008,
+            "leaseIntervalType": "Renewal Offer",
+            "startDate": "10/18/2027",
+            "endDate": "10/16/2028"
+          },
+          {
+            "id": 71010,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/28/2026",
+            "endDate": "10/17/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3001,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Alice",
+            "lastName": "Nguyen",
+            "moveInDate": "10/18/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "alice.nguyen@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3001"
+            }
+          },
+          {
+            "id": 3002,
+            "customerType": "Co-Applicant",
+            "leaseCustomerStatus": null,
+            "firstName": "Bob",
+            "lastName": "Lee",
+            "moveInDate": "10/18/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "bob.lee@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3002"
+            }
+          },
+          {
+            "id": 3003,
+            "customerType": "Guarantor",
+            "leaseCustomerStatus": null,
+            "firstName": "Gary",
+            "lastName": "Nguyen",
+            "moveInDate": "10/28/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "gary.nguyen@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3003"
+            }
+          },
+          {
+            "id": 3020,
+            "customerType": "Occupant",
+            "leaseCustomerStatus": null,
+            "firstName": "Uma",
+            "lastName": "Lee",
+            "moveInDate": "10/28/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "uma.lee@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3020"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9112,
+      "unitId": "5012",
+      "leaseIntervalStatus": "Current",
+      "leaseIntervalId": 71121,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 71121,
+            "leaseIntervalType": "Lease",
+            "startDate": "10/28/2026",
+            "endDate": "10/27/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3016,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Mia",
+            "lastName": "Kowalski",
+            "moveInDate": "10/28/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "mia.kowalski@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3016"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9118,
+      "unitId": "5008",
+      "leaseIntervalStatus": "Future",
+      "leaseIntervalId": 71181,
+      "isMonthToMonth": 0,
+      "leaseIntervals": {
+        "leaseInterval": [
+          {
+            "id": 71181,
+            "leaseIntervalType": "Lease",
+            "startDate": "11/10/2026",
+            "endDate": "11/09/2027"
+          }
+        ]
+      },
+      "customers": {
+        "customer": [
+          {
+            "id": 3019,
+            "customerType": "Primary",
+            "leaseCustomerStatus": null,
+            "firstName": "Tina",
+            "lastName": "Vance",
+            "moveInDate": "11/10/2026",
+            "moveOutDate": null,
+            "addresses": {
+              "address": {
+                "email": "tina.vance@example.com"
+              }
+            },
+            "phone": {
+              "phoneNumber": "(555) 010-3019"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

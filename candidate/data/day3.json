@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "pms": "Lakeside",
+    "api_version": "2.3",
+    "generated_at": "2026-10-31T06:30:00Z",
+    "snapshot_type": "full"
+  },
+  "property": {
+    "id": 100,
+    "name": "Harbor View Apartments",
+    "timezone": "America/Los_Angeles"
+  },
+  "units": [
+    {
+      "id": 5001,
+      "unitNumber": "101",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5002,
+      "unitNumber": "102",
+      "buildingName": "A",
+      "floorplanName": "2x2",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5003,
+      "unitNumber": "103",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5004,
+      "unitNumber": "104",
+      "buildingName": "A",
+      "floorplanName": "Studio",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5005,
+      "unitNumber": "105",
+      "buildingName": "A",
+      "floorplanName": "2x2",
+      "unitStatus": "O2"
+    },
+    {
+      "id": 5006,
+      "unitNumber": "106",
+      "buildingName": "A",
+      "floorplanName": "1x1",
+      "unitStatus": "V2"
+    },
+    {
+      "id": 5007,
+      "unitNumber": "201",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5008,
+      "unitNumber": "202",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "V2"
+    },
+    {
+      "id": 5009,
+      "unitNumber": "203",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "O3"
+    },
+    {
+      "id": 5010,
+      "unitNumber": "204",
+      "buildingName": "",
+      "floorplanName": "Studio",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5011,
+      "unitNumber": "205",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5012,
+      "unitNumber": "206",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "O1"
+    },
+    {
+      "id": 5013,
+      "unitNumber": "301",
+      "buildingName": "",
+      "floorplanName": "1x1",
+      "unitStatus": "M"
+    },
+    {
+      "id": 5014,
+      "unitNumber": "CLUB",
+      "buildingName": "",
+      "floorplanName": "",
+      "unitStatus": "C"
+    },
+    {
+      "id": 5015,
+      "unitNumber": "302",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "D"
+    },
+    {
+      "id": 5016,
+      "unitNumber": "303",
+      "buildingName": "",
+      "floorplanName": "2x2",
+      "unitStatus": "X"
+    }
+  ],
+  "leases": []
+}
