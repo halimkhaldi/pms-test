@@ -25,9 +25,17 @@ matters more than the UI. If you run out of time, write down what you would do n
 
 There is no real Lakeside API. Read the files from disk.
 
+## Language and stack
+
+We prefer **Elixir** for the backend, **React** for the UI and **PostgreSQL** for storage,
+because that is what we work in. You can use any language, framework and database you are
+comfortable with, including SQLite or keeping state in memory. A clear, correct solution in
+another stack scores the same as one in ours. The contracts below are written in Elixir; in
+another language, write the same contract as an interface, trait, protocol or abstract class.
+
 ## What to build
 
-An Elixir (Mix) project that:
+A project that:
 
 1. **Reads** a Lakeside snapshot through the `Lakeside.Client` contract below. Write an
    implementation that reads the JSON files.
@@ -42,7 +50,7 @@ An Elixir (Mix) project that:
 
 ## The Lakeside client contract
 
-Today Lakeside sends files. Later it will be an HTTP API. Code against this behaviour so
+Today Lakeside sends files. Later it will be an HTTP API. Code against this contract so
 that change touches one module:
 
 ```elixir
@@ -60,7 +68,7 @@ The client only fetches and decodes. Normalizing is a separate step.
 ## The RentLive contract
 
 RentLive owns the database and the workflows. You do not have access to it. Code against this
-behaviour, and write your own in-memory implementation for tests and for running the project
+contract, and write your own in-memory implementation for tests and for running the project
 locally:
 
 ```elixir
@@ -167,8 +175,9 @@ If the data puts you in a situation these rules do not cover, make a decision, k
 ## The UI
 
 Property staff use this UI to answer "what does the system know about this unit or resident,
-and what happened to them?" Build it with Phoenix LiveView, or with any frontend you like on
-top of a JSON API that your Elixir app serves. Keep the styling simple. We look at what it
+and what happened to them?" We prefer React on top of a JSON API that your backend serves.
+Phoenix LiveView, server-rendered pages or any other frontend are fine too. Keep the styling
+simple. We look at what it
 shows and how the data gets there, not at how it looks.
 
 It needs these views:
@@ -202,11 +211,12 @@ happen in the same running app, for example from the UI's run buttons.
 
 ## What to submit
 
-- The Mix project, with tests. `mix test` must pass.
-- A way to run it: a Mix task or a function you can call from IEx. It takes a snapshot path and
-  prints or logs what it did.
-- The UI, started with one command, for example `mix phx.server`. Say in the README how to open
-  it and run day 1 then day 2 from it.
+- The project, with tests. One command runs the tests, for example `mix test`, and they must
+  pass.
+- A way to run a sync: a command or a function you can call from a console, for example a Mix
+  task. It takes a snapshot path and prints or logs what it did.
+- The UI, started with one or two commands. If you use a database, include a way to start it,
+  for example a `docker-compose.yml`. Say in your README how to install and start everything, how to open the UI, and how to run day 1, day 2 and day 3 from it.
 - Tests for the code behind the UI, such as the change log. Browser tests are optional.
 - A short `NOTES.md` that covers:
   - Your domain model, and why you chose it.
